@@ -1,0 +1,22 @@
+.transactionHistory {
+  width: 100%;
+  border: 1px solid lightblue;
+}
+
+.thead {
+  background-color: lightblue;
+  height: 40px;
+}
+.tbody {
+  text-align: justify;
+}
+.itemsBody {
+  padding-left: 180px;
+  height: 50px;
+}
+.itemsBody + .itemsBody {
+  border-left: 1px solid lightblue;
+}
+.tbody:nth-child(even) {
+  background-color: lightgray;
+}
