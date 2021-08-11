@@ -17,6 +17,7 @@
 .itemsBody + .itemsBody {
   border-left: 1px solid lightblue;
 }
+
 .tbody:nth-child(even) {
   background-color: lightgray;
 }
